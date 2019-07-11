@@ -1,6 +1,7 @@
 import axios from 'axios'
 import Slider from "react-slick";
 import ProductCard from '../components/ProductCard'
+import Varaosasto from '../components/Varaosasto';
 
 const settings = {
     dots: true,
@@ -20,6 +21,7 @@ const Airtable = ({ data }) =>
     <div style={{ height: "100%" }}>
         <Slider {...settings}>
             {data.records.map(e => <ProductCard key={e.id} {...e.fields} />)}
+            <Varaosasto/>
         </Slider>
     </div>
 

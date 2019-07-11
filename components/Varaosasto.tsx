@@ -1,0 +1,1 @@
+export default ()=> <h1>Varaosasto.fi on nyt auki!</h1>
