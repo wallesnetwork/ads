@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "@nursultan/keravanautoads",
+    "regions": [
+        "arn1"
+    ],
+    "alias": [
+        "keravanautoads.now.sh"
+    ],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ]
+}

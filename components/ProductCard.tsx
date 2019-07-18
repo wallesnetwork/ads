@@ -40,10 +40,10 @@ const ProductPage = ({ id, nimi, hinta, tuotekuvaus, kuva: [{ thumbnails: { larg
       <ShadowText
         style={{
           margin: "0",
-          fontSize: "4rem",
+          fontSize: "5rem",
           color: "white",
           background: "red",
-          padding: "2rem 4rem",
+          padding: "1rem 4rem",
           alignSelf: "end",
           justifySelf: "left",
           width: "40vw",
