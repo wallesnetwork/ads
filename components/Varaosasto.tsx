@@ -17,7 +17,7 @@ export default ()=>
         src="/static/varaosasto_laitteet.png"
         alt="varaosasto"
         style={{
-          width: "40vw",
+          width: "50vw",
           margin: "auto"
           
         }}
